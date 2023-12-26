@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <div class="h-screen w-full bg-zinc-400 flex justify-center items-center font-[gilroy]">
+        <div class="h-[80vh] w-[87%] bg-zinc-300 rounded-3xl">
+
+            <div id="ptop" class="w-full h-[15%] px-10 bg-sky-500 rounded-t-3xl flex justify-around items-center">
+
+                <div class="flex gap-4 items-center ">
+                    <h1 class="text-4xl">Hit</h1>
+                    <div id="hitval" class="h-14 w-14 bg-zinc-100 rounded-md flex justify-center items-center text-2xl">1</div>
+                </div>
+
+                <div class="flex gap-4 items-center">
+                    <h1 class="text-4xl">Time</h1>
+                    <div id="timerVal" class="h-14 w-14 bg-zinc-100 rounded-md flex justify-center items-center text-2xl">30</div>
+                </div>
+
+                <div class="flex gap-4 items-center">
+                    <h1 class="text-4xl">Score</h1>
+                    <div id="scoreVal" class="h-14 w-14 bg-zinc-100 rounded-md flex justify-center items-center text-2xl">0</div>
+                </div>
+            </div>
+
+            <div id="pbtm" class="w-full h-[85%] flex flex-wrap items-center justify-center gap-3 rounded-b-3xl p-3 text-3xl  uppercase">
+              
+               
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
